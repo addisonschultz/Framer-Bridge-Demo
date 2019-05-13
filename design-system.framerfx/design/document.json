@@ -25,6 +25,7 @@
             "codeComponentProps" : {
               "disabled" : false,
               "fluid" : true,
+              "kind" : "default",
               "text" : "Download App"
             },
             "codeOverrideEnabled" : false,

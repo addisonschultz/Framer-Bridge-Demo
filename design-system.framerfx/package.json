@@ -1,17 +1,23 @@
 {
-  "main": "dist/index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "@types/react": "^16.4.16",
-    "framer": "^0.10"
-  },
-  "peerDependencies": {
-    "framer": "^0.10",
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
-  },
-  "version": "1.0.0",
-  "dependencies": {
-    "styled-components": "^4.2.0"
-  }
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16",
+		"framer": "^0.10"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"version": "1.0.0",
+	"dependencies": {
+		"styled-components": "^4.2.0"
+	},
+	"framer": {
+		"id": "65f23b8d-bd02-416b-85c0-2b72c584a8ff",
+		"displayName": "Bridge Demo"
+	},
+	"author": "Addison Schultz",
+	"name": "@framer/framer.bridge-demo"
 }

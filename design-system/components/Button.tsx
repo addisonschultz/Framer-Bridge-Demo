@@ -72,7 +72,7 @@ const StyledButton = styled.button`
 
   /* Primary styles */
   &.primary {
-    background: ${theme.color.primary};
+    background: ${theme.color.anotherColor};
     color: #fff;
   }
   &.primary:hover {

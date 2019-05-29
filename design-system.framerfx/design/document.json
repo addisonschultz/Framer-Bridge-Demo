@@ -808,8 +808,7 @@
             "codeComponentIdentifier" : ".\/Tooltip.tsx_Tooltip",
             "codeComponentProps" : {
               "arrow" : "left",
-              "error" : false,
-              "text" : "This field is required"
+              "error" : false
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -930,7 +929,7 @@
 
         ],
         "clip" : true,
-        "codeComponentIdentifier" : ".\/Circle.tsx_FramerCircle",
+        "codeComponentIdentifier" : ".\/Nav.tsx_Nav",
         "codeComponentProps" : {
 
         },
@@ -954,12 +953,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
-        "height" : 304,
+        "height" : 200,
         "heightType" : 0,
-        "id" : "lKXlA8Hq4",
-        "intrinsicHeight" : 200,
-        "intrinsicWidth" : 200,
-        "left" : 836,
+        "id" : "XFv609Wdj",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 731,
         "locked" : false,
         "name" : null,
         "opacity" : 1,
@@ -975,71 +974,9 @@
         "radiusTopRight" : 0,
         "right" : null,
         "rotation" : 0,
-        "top" : -281,
+        "top" : -327,
         "visible" : true,
-        "width" : 602,
-        "widthType" : 0
-      },
-      {
-        "__class" : "CodeComponentNode",
-        "aspectRatio" : null,
-        "bottom" : null,
-        "centerAnchorX" : 0,
-        "centerAnchorY" : 0,
-        "children" : [
-
-        ],
-        "clip" : true,
-        "codeComponentIdentifier" : ".\/ButtonCopy.tsx_ButtonCopy",
-        "codeComponentProps" : {
-          "disabled" : false,
-          "fluid" : true,
-          "text" : "Button"
-        },
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "deviceType" : null,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : false,
-        "fillGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
-        },
-        "fillImage" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "height" : 161,
-        "heightType" : 0,
-        "id" : "CPaFeOp6k",
-        "intrinsicHeight" : 48,
-        "intrinsicWidth" : 150,
-        "left" : 438,
-        "locked" : false,
-        "name" : null,
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "iEDNh42Sf",
-        "previewSettings" : null,
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "right" : null,
-        "rotation" : 0,
-        "top" : -666,
-        "visible" : true,
-        "width" : 617,
+        "width" : 200,
         "widthType" : 0
       }
     ],

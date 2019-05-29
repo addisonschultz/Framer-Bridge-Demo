@@ -1,36 +1,29 @@
-import * as React from "react"
-import * as System from "../../design-system"
-import { ControlType, PropertyControls } from "framer"
+import * as React from "react";
+import * as System from "../../design-system";
+import { ControlType, PropertyControls } from "framer";
 
 type Props = System.TooltipProps & {
-  width: number
-  height: number
-  text: string
-  arrow: "top" | "right" | "bottom" | "left"
-}
+  width: number;
+  height: number;
+};
 
 export class Tooltip extends React.Component<Props> {
   render() {
-    const { text, ...props } = this.props
-    return <System.Tooltip {...props}>{text}</System.Tooltip>
+    return <System.Tooltip {...this.props} />;
   }
 
   static defaultProps: Props = {
-    width: 122,
-    height: 24,
-    text: "This is a cool feature",
-    arrow: "left",
-    error: false
-  }
+    width: 150,
+    height: 50
+  };
 
   static propertyControls: PropertyControls<Props> = {
-    text: { type: ControlType.String, title: "Text" },
     arrow: {
-      type: ControlType.SegmentedEnum,
+      title: "Arrow",
       options: ["top", "right", "bottom", "left"],
-      optionTitles: ["T", "R", "B", "L"],
-      title: "Arrow"
+      optionTitles: ["Top", "Right", "Bottom", "Left"],
+      type: ControlType.Enum
     },
-    error: { type: ControlType.Boolean, title: "Error" }
-  }
+    error: { title: "Error", type: ControlType.Boolean }
+  };
 }

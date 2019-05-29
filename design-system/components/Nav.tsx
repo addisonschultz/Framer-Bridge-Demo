@@ -11,6 +11,7 @@ export class Nav extends React.Component {
         <h1>Item 1</h1>
         <h1>Item 2</h1>
         <h1>Item 3</h1>
+        <h1>Item 4</h1>
       </div>
     );
   }

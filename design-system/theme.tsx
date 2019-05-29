@@ -1,3 +1,5 @@
+import { colors } from "../design-system.framerfx/code/canvas";
+
 type Colors = {
   paneBg: string;
   paneBgDark: string;

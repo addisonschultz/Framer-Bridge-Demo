@@ -9,12 +9,13 @@ type Props = System.TooltipProps & {
 
 export class Tooltip extends React.Component<Props> {
   render() {
-    return <System.Tooltip {...this.props} />;
+    return <System.Tooltip {...this.props}>{this.props.text}</System.Tooltip>;
   }
 
   static defaultProps: Props = {
     width: 150,
-    height: 50
+    height: 50,
+    text: "Components"
   };
 
   static propertyControls: PropertyControls<Props> = {
@@ -24,6 +25,7 @@ export class Tooltip extends React.Component<Props> {
       optionTitles: ["Top", "Right", "Bottom", "Left"],
       type: ControlType.Enum
     },
-    error: { title: "Error", type: ControlType.Boolean }
+    error: { title: "Error", type: ControlType.Boolean },
+    text: { title: "Text", type: ControlType.String }
   };
 }

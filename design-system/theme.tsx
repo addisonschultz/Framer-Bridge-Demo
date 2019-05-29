@@ -1,5 +1,6 @@
 import { colors } from "../design-system.framerfx/code/canvas";
 
+// Project Color Types
 type Colors = {
   paneBg: string;
   paneBgDark: string;
@@ -14,9 +15,9 @@ type Colors = {
   bodyLight: string;
   bodyLighter: string;
   bodyLightest: string;
-  anotherColor: string;
 };
 
+// Project Colors
 const color: Colors = {
   paneBg: "#FFF",
   paneBgDark: "#FDFDFD",
@@ -30,8 +31,7 @@ const color: Colors = {
   body: "#222",
   bodyLight: "#444",
   bodyLighter: "#666",
-  bodyLightest: "#AAA",
-  anotherColor: "#0f5"
+  bodyLightest: "#AAA"
 };
 
 const space: string[] = ["0", "4px", "8px", "16px", "32px"];
@@ -40,6 +40,7 @@ const font = "-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif";
 
 export const theme = {
   color,
+  themeColor: colors,
   font,
   space
 };

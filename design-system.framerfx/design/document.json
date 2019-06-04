@@ -1047,7 +1047,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 195,
+        "top" : 183,
         "visible" : true,
         "width" : 200,
         "widthType" : 0
@@ -1189,15 +1189,22 @@
     "originalid" : null,
     "parentid" : null,
     "tokens" : {
+      "2f02ad8e-f93f-4651-b4fd-c07074451dd6" : {
+        "__class" : "ColorTokenNode",
+        "id" : "2f02ad8e-f93f-4651-b4fd-c07074451dd6",
+        "name" : "FramerGreen",
+        "value" : "rgb(51, 255, 0)"
+      },
       "80f970d0-6269-40a4-97d5-1c310b7d9bfa" : {
         "__class" : "ColorTokenNode",
         "id" : "80f970d0-6269-40a4-97d5-1c310b7d9bfa",
         "name" : "FramerPrimary",
-        "value" : "rgb(0, 85, 255)"
+        "value" : "rgb(132, 0, 255)"
       }
     },
     "tokensIndex" : [
-      "80f970d0-6269-40a4-97d5-1c310b7d9bfa"
+      "80f970d0-6269-40a4-97d5-1c310b7d9bfa",
+      "2f02ad8e-f93f-4651-b4fd-c07074451dd6"
     ],
     "visible" : false
   },

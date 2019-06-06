@@ -15,6 +15,9 @@ export type Props = {
 
   /** Button kind */
   kind?: "default" | "primary" | "danger";
+
+  /** Button theme */
+  theme?: "framer" | "system";
 };
 
 // Component
@@ -23,12 +26,14 @@ export const Button: React.FC<Props> = ({
   fluid,
   disabled,
   children,
-  kind
+  kind,
+  theme
 }) => (
   <StyledButton
     className={`${fluid ? "fluid" : ""} ${disabled ? "disabled" : ""} ${
       kind ? kind : ""
     }`}
+    theme={theme}
   >
     {text || children}
   </StyledButton>
@@ -36,11 +41,13 @@ export const Button: React.FC<Props> = ({
 
 // Styles
 const StyledButton = styled.button`
-  background: ${theme.color.paneBg};
+  background: ${props =>
+    props.theme == "system" ? theme.color.paneBg : theme.themeColor.paneBg};
   border-radius: 4px;
   border: none;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
-  color: ${theme.color.body};
+  color: ${props =>
+    props.theme == "system" ? theme.color.body : theme.themeColor.body};
   font-family: ${theme.font};
   font-size: 15px;
   font-weight: 600;
@@ -50,14 +57,18 @@ const StyledButton = styled.button`
   padding: ${theme.space[3]};
   text-align: center;
   &:hover {
-    color: ${theme.color.bodyLight};
+    color: ${props =>
+      props.theme == "system" ? theme.color.bodyLight : theme.color.bodyLight};
     transition: box-shadow 0.2s, color 0.2s, background-color 0.2s;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
       0px 1px 1px 0px rgba(0, 0, 0, 0.05);
   }
   &:active {
     transition: none;
-    color: ${theme.color.bodyLighter};
+    color: ${props =>
+      props.theme == "system"
+        ? theme.color.bodyLighter
+        : theme.themeColor.bodyLighter};
     background-color: ${theme.color.paneBgDark};
     box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.05),
       inset 0px 0px 0px 1px hsla(0, 0%, 0%, 0.05);
@@ -66,13 +77,17 @@ const StyledButton = styled.button`
     width: 100%;
   }
   &.disabled {
-    color: ${theme.color.bodyLightest};
+    color: ${props =>
+      props.theme == "system"
+        ? theme.color.bodyLightest
+        : theme.themeColor.bodyLightest};
     pointer-events: none;
   }
 
   /* Primary styles */
   &.primary {
-    background: ${theme.themeColor.FramerBlue};
+    background: ${props =>
+      props.theme == "system" ? theme.color.primary : theme.themeColor.primary};
     color: #fff;
   }
   &.primary:hover {
@@ -82,14 +97,18 @@ const StyledButton = styled.button`
   }
   &.primary:active {
     color: rgba(255, 255, 255, 0.7);
-    background: ${theme.color.primaryDark};
+    background: ${props =>
+      props.theme == "system"
+        ? theme.color.primaryDark
+        : theme.themeColor.primaryDark};
     box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2),
       inset 0px 0px 0px 1px hsla(0, 0%, 0%, 0.05);
   }
 
   /* Danger styles */
   &.danger {
-    background: ${theme.color.danger};
+    background: ${props =>
+      props.theme == "system" ? theme.color.danger : theme.themeColor.danger};
     color: #fff;
   }
   &.danger:hover {
@@ -99,7 +118,10 @@ const StyledButton = styled.button`
   }
   &.danger:active {
     color: rgba(255, 255, 255, 0.6);
-    background: ${theme.color.dangerDark};
+    background: ${props =>
+      props.theme == "system"
+        ? theme.color.dangerDark
+        : theme.themeColor.dangerDark};
     box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2),
       inset 0px 0px 0px 1px hsla(0, 0%, 0%, 0.05);
   }

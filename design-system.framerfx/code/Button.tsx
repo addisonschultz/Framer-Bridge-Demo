@@ -26,6 +26,13 @@ export class Button extends React.Component<Props> {
       options: ["default", "primary", "danger"],
       optionTitles: ["Default", "Primary", "Danger"],
       type: ControlType.Enum
+    },
+    theme: {
+      title: "Theme",
+      type: ControlType.Enum,
+      options: ["framer", "system"],
+      optionTitles: ["Framer", "System"],
+      defaultValue: "system"
     }
   };
 }

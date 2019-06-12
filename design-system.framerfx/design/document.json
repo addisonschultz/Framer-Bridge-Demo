@@ -156,7 +156,7 @@
               "fluid" : true,
               "kind" : "primary",
               "text" : "Download App",
-              "theme" : "System"
+              "theme" : "framer"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -1509,7 +1509,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-78af39f5-ba76-4ac9-ab54-79afa12d0ef9, rgb(255, 255, 255)) \/* {\"name\":\"paneBg\"} *\/",
+                "fillColor" : "var(--token-78af39f5-ba76-4ac9-ab54-79afa12d0ef9, rgb(146, 144, 144)) \/* {\"name\":\"paneBg\"} *\/",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",
@@ -1659,7 +1659,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(255, 255, 255)) \/* {\"name\":\"primary\"} *\/",
+                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(119, 85, 204)) \/* {\"name\":\"primary\"} *\/",
                 "fillEnabled" : true,
                 "fillGradient" : {
                   "__class" : "LinearGradient",

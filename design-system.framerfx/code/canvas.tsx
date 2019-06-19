@@ -23,8 +23,8 @@ export const colors = Object.freeze({
     "dangerLight": "var(--token-4d38184d-ba4e-4653-82cd-9be04ea407e4, rgb(255, 221, 221))",
     /** #444444 */
     "bodyLight": "var(--token-46d50ddd-c5d6-47fc-b854-c72378c61492, rgb(68, 68, 68))",
-    /** #886363 */
-    "paneBgDark": "var(--token-4667c662-66b8-4ab7-bb66-bc9ce99dbf53, rgb(136, 99, 99))",
+    /** #FDFDFD */
+    "paneBgDark": "var(--token-4667c662-66b8-4ab7-bb66-bc9ce99dbf53, rgb(253, 253, 253))",
     /** rgba(0, 0, 0, 0.1) */
     "paneBorder": "var(--token-435f685e-f7cb-4a0c-b4d0-d29e63866471, rgba(0, 0, 0, 0.1))",
     /** #7744CC */
@@ -35,8 +35,8 @@ export const colors = Object.freeze({
     "dangerDark": "var(--token-5280d855-f649-4784-81b1-e99e7484d0aa, rgb(255, 51, 68))",
     /** #222222 */
     "body": "var(--token-81582620-23df-4d5d-bba2-21d28c831a0b, rgb(34, 34, 34))",
-    /** #8F6161 */
-    "bodyLighter": "var(--token-01aec882-d496-4ef9-ab08-9d58b2e9a7b3, rgb(143, 97, 97))",
+    /** #666666 */
+    "bodyLighter": "var(--token-01aec882-d496-4ef9-ab08-9d58b2e9a7b3, rgb(102, 102, 102))",
     /** #AAAAAA */
     "bodyLightest": "var(--token-7de01636-9bb3-43d0-96ac-acc1e151d99a, rgb(170, 170, 170))",
 })

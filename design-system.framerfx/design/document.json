@@ -2169,7 +2169,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-78af39f5-ba76-4ac9-ab54-79afa12d0ef9, rgb(214, 214, 214)) \/* {\"name\":\"paneBg\"} *\/",
+                "fillColor" : "var(--token-78af39f5-ba76-4ac9-ab54-79afa12d0ef9, rgb(255, 255, 255)) \/* {\"name\":\"paneBg\"} *\/",
                 "fillEnabled" : true,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,

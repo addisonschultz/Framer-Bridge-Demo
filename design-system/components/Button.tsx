@@ -58,7 +58,9 @@ const StyledButton = styled.button`
   text-align: center;
   &:hover {
     color: ${props =>
-      props.theme == "system" ? theme.color.bodyLight : theme.color.bodyLight};
+      props.theme == "system"
+        ? theme.color.bodyLight
+        : theme.themeColor.bodyLight};
     transition: box-shadow 0.2s, color 0.2s, background-color 0.2s;
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
       0px 1px 1px 0px rgba(0, 0, 0, 0.05);

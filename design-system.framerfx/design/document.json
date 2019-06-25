@@ -27,7 +27,7 @@
               "fluid" : true,
               "kind" : "default",
               "text" : "Download App",
-              "theme" : "framer"
+              "theme" : "system"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -216,7 +216,7 @@
               "fluid" : true,
               "kind" : "primary",
               "text" : "Download App",
-              "theme" : "framer"
+              "theme" : "system"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -412,7 +412,7 @@
               "fluid" : true,
               "kind" : "danger",
               "text" : "Download App",
-              "theme" : "System"
+              "theme" : "system"
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -2379,7 +2379,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(119, 85, 204)) \/* {\"name\":\"primary\"} *\/",
+                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(205, 86, 141)) \/* {\"name\":\"primary\"} *\/",
                 "fillEnabled" : true,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,
@@ -3846,7 +3846,7 @@
         "__class" : "ColorTokenNode",
         "id" : "88cc4da3-4812-445e-8535-f0c1669ab2ed",
         "name" : "primary",
-        "value" : "rgb(119, 85, 204)"
+        "value" : "rgb(185, 84, 196)"
       },
       "435f685e-f7cb-4a0c-b4d0-d29e63866471" : {
         "__class" : "ColorTokenNode",

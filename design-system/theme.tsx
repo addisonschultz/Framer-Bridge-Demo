@@ -22,7 +22,7 @@ const color: Colors = {
   paneBg: "#FFF",
   paneBgDark: "#FDFDFD",
   paneBorder: "rgba(0, 0, 0, 0.1)",
-  primary: "#05f",
+  primary: "#75f",
   primaryDark: "#74f",
   primaryLight: "#EEF",
   danger: "#F44",

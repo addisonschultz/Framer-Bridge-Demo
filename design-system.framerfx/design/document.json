@@ -157,6 +157,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "OM40QZetW",
@@ -204,7 +210,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.5,
+            "centerAnchorX" : 0.505,
             "centerAnchorY" : 0.5,
             "children" : [
 
@@ -273,7 +279,7 @@
             "id" : "MxIYo0VOz",
             "intrinsicHeight" : 60,
             "intrinsicWidth" : null,
-            "left" : 25,
+            "left" : 26,
             "locked" : false,
             "name" : "Button",
             "opacity" : 1,
@@ -287,7 +293,7 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 25,
+            "right" : 24,
             "rotation" : 0,
             "top" : null,
             "visible" : true,
@@ -346,6 +352,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "H3W3wB7VB",
@@ -542,6 +554,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "YPzY2MZ7I",
@@ -730,6 +748,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "Ics8HCHOs",
@@ -917,6 +941,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "CxnJ9IuSB",
@@ -979,7 +1009,8 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/Toggle.tsx_Toggle",
             "codeComponentProps" : {
-              "disabled" : false
+              "disabled" : false,
+              "on" : false
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -1109,6 +1140,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "rqphh24Pt",
@@ -1303,6 +1340,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "kHMOcM50H",
@@ -1311,7 +1354,7 @@
         "isExternalMaster" : null,
         "isMaster" : false,
         "isTarget" : false,
-        "left" : 450,
+        "left" : 449,
         "locked" : false,
         "name" : "Tooltip",
         "navigationTarget" : null,
@@ -1495,6 +1538,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 200,
         "heightType" : 0,
         "id" : "wBR6sbFtQ",
@@ -1626,6 +1675,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "FDiFX8sAj",
@@ -1722,6 +1777,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "zwRhcgMqU",
@@ -1818,6 +1879,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "mXxuXo0x5",
@@ -1914,6 +1981,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "lwaOXXmih",
@@ -2010,6 +2083,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "gh57PuTDQ",
@@ -2213,6 +2292,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "XEKkAXbVw",
@@ -2318,6 +2403,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "gDr8m6_NF",
@@ -2379,7 +2470,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(150, 140, 151)) \/* {\"name\":\"primary\"} *\/",
+                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(107, 37, 142)) \/* {\"name\":\"primary\"} *\/",
                 "fillEnabled" : true,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,
@@ -2423,6 +2514,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "N3vNv_IQq",
@@ -2528,6 +2625,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "CJW1EZY0J",
@@ -2633,6 +2736,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "ztMXFzPUW",
@@ -2738,6 +2847,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "WzqHmJs5M",
@@ -2941,6 +3056,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "fvidJGmz3",
@@ -3046,6 +3167,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "H8_ljcHle",
@@ -3151,6 +3278,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "gLqDx_CNL",
@@ -3256,6 +3389,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "BzsbRxWoM",
@@ -3361,6 +3500,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "Guaz6cf8J",
@@ -3466,6 +3611,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "HGPp8HwVY",
@@ -3571,6 +3722,12 @@
                   "widthFactor" : 0.5
                 },
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 70,
                 "heightType" : 0,
                 "id" : "PTn57fKsp",
@@ -3748,6 +3905,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 750,
         "heightType" : 0,
         "id" : "rz6woPS9I",
@@ -3781,7 +3944,142 @@
         "visible" : true,
         "width" : 800,
         "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "bottom" : null,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.27896995708154504,
+            "children" : [
+
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(138, 35, 190)) \/* {\"name\":\"primary\"} *\/",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 78,
+            "heightType" : 0,
+            "id" : "HVFRl50ps",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 25,
+            "locked" : false,
+            "name" : null,
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "Zl4npMww5",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : 25,
+            "rotation" : 0,
+            "top" : 26,
+            "visible" : true,
+            "width" : 151,
+            "widthType" : 0
+          }
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "height" : 233,
+        "heightType" : 0,
+        "id" : "Zl4npMww5",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 778,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "iEDNh42Sf",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -1039,
+        "visible" : true,
+        "width" : 201,
+        "widthType" : 0
       }
+    ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
     ],
     "id" : "iEDNh42Sf",
     "name" : null,
@@ -3846,7 +4144,7 @@
         "__class" : "ColorTokenNode",
         "id" : "88cc4da3-4812-445e-8535-f0c1669ab2ed",
         "name" : "primary",
-        "value" : "rgb(241, 87, 255)"
+        "value" : "rgb(10, 174, 75)"
       },
       "435f685e-f7cb-4a0c-b4d0-d29e63866471" : {
         "__class" : "ColorTokenNode",
@@ -3919,5 +4217,5 @@
     ],
     "visible" : false
   },
-  "version" : 52
+  "version" : 54
 }

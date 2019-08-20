@@ -2470,7 +2470,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(107, 37, 142)) \/* {\"name\":\"primary\"} *\/",
+                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(56, 204, 115)) \/* {\"name\":\"primary\"} *\/",
                 "fillEnabled" : true,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,
@@ -4015,7 +4015,7 @@
         "__class" : "ColorTokenNode",
         "id" : "88cc4da3-4812-445e-8535-f0c1669ab2ed",
         "name" : "primary",
-        "value" : "rgb(10, 174, 75)"
+        "value" : "rgb(32, 199, 217)"
       },
       "435f685e-f7cb-4a0c-b4d0-d29e63866471" : {
         "__class" : "ColorTokenNode",

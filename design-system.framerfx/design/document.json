@@ -379,7 +379,8 @@
         "previewSettings" : {
           "__class" : "PreviewSettings",
           "bezel" : false,
-          "responsive" : true,
+          "deviceType" : null,
+          "responsive" : false,
           "rotate" : false,
           "touch" : true,
           "zoom" : -1
@@ -2470,7 +2471,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(56, 204, 115)) \/* {\"name\":\"primary\"} *\/",
+                "fillColor" : "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(32, 199, 217)) \/* {\"name\":\"primary\"} *\/",
                 "fillEnabled" : true,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,
@@ -2581,7 +2582,7 @@
                 "exportOptions" : [
 
                 ],
-                "fillColor" : "var(--token-ac2482d7-8a13-45ce-9496-2aa74a90e403, rgb(119, 68, 204)) \/* {\"name\":\"primaryDark\"} *\/",
+                "fillColor" : "var(--token-ac2482d7-8a13-45ce-9496-2aa74a90e403, rgb(67, 165, 203)) \/* {\"name\":\"primaryDark\"} *\/",
                 "fillEnabled" : true,
                 "fillImage" : null,
                 "fillImagePixelHeight" : null,
@@ -4015,7 +4016,7 @@
         "__class" : "ColorTokenNode",
         "id" : "88cc4da3-4812-445e-8535-f0c1669ab2ed",
         "name" : "primary",
-        "value" : "rgb(32, 199, 217)"
+        "value" : "rgb(64, 0, 255)"
       },
       "435f685e-f7cb-4a0c-b4d0-d29e63866471" : {
         "__class" : "ColorTokenNode",
@@ -4051,7 +4052,7 @@
         "__class" : "ColorTokenNode",
         "id" : "ac2482d7-8a13-45ce-9496-2aa74a90e403",
         "name" : "primaryDark",
-        "value" : "rgb(67, 165, 203)"
+        "value" : "rgb(203, 67, 156)"
       },
       "cf150fd0-1f3c-41b0-9544-9953bf9b048f" : {
         "__class" : "ColorTokenNode",

@@ -15,8 +15,8 @@ export const colors = Object.freeze({
     "FramerDanger": "var(--token-8233a5fe-c673-4d42-8d2a-9b8682bba401, rgb(255, 68, 68))",
     /** #FFFFFF */
     "paneBg": "var(--token-78af39f5-ba76-4ac9-ab54-79afa12d0ef9, rgb(255, 255, 255))",
-    /** #20C7D9 */
-    "primary": "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(32, 199, 217))",
+    /** #4000FF */
+    "primary": "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(64, 0, 255))",
     /** #FF4444 */
     "danger": "var(--token-6a7d34eb-5f08-44cd-9279-ae09ba68de53, rgb(255, 68, 68))",
     /** #FFDDDD */
@@ -27,8 +27,8 @@ export const colors = Object.freeze({
     "paneBgDark": "var(--token-4667c662-66b8-4ab7-bb66-bc9ce99dbf53, rgb(253, 253, 253))",
     /** rgba(0, 0, 0, 0.1) */
     "paneBorder": "var(--token-435f685e-f7cb-4a0c-b4d0-d29e63866471, rgba(0, 0, 0, 0.1))",
-    /** #43A5CB */
-    "primaryDark": "var(--token-ac2482d7-8a13-45ce-9496-2aa74a90e403, rgb(67, 165, 203))",
+    /** #CB439C */
+    "primaryDark": "var(--token-ac2482d7-8a13-45ce-9496-2aa74a90e403, rgb(203, 67, 156))",
     /** #EEEEFF */
     "primaryLight": "var(--token-8a439782-a1d0-43ca-8b7e-c0c6e8d38764, rgb(238, 238, 255))",
     /** #FF3344 */

@@ -15,8 +15,8 @@ export const colors = Object.freeze({
     "FramerDanger": "var(--token-8233a5fe-c673-4d42-8d2a-9b8682bba401, rgb(255, 68, 68))",
     /** #FFFFFF */
     "paneBg": "var(--token-78af39f5-ba76-4ac9-ab54-79afa12d0ef9, rgb(255, 255, 255))",
-    /** #4000FF */
-    "primary": "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(64, 0, 255))",
+    /** #1A56C7 */
+    "primary": "var(--token-88cc4da3-4812-445e-8535-f0c1669ab2ed, rgb(26, 86, 199))",
     /** #FF4444 */
     "danger": "var(--token-6a7d34eb-5f08-44cd-9279-ae09ba68de53, rgb(255, 68, 68))",
     /** #FFDDDD */

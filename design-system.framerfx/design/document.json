@@ -618,6 +618,7 @@
             "codeComponentProps" : {
               "disabled" : true,
               "fluid" : true,
+              "kind" : "default",
               "text" : "Download App",
               "theme" : "system"
             },
@@ -812,7 +813,8 @@
             "codeComponentProps" : {
               "disabled" : false,
               "error" : false,
-              "placeholder" : "Email"
+              "placeholder" : "Email",
+              "value" : ""
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
